@@ -1,0 +1,69 @@
+.btn-more, .btn-rounded {
+  width: 100px;
+  height: 30px;
+  background-color: deeppink;
+  color: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-more:hover, .btn-rounded:hover {
+    color: black;
+    cursor: pointer; }
+
+.btn-rounded {
+  border-radius: 15px; }
+
+.bg-violet {
+  background-color: #dfa1d4; }
+
+.text-pink {
+  color: #e205bb; }
+
+.box {
+  width: 392%;
+  height: 28vh;
+  background-color: white; }
+
+.icon-lang {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-position: center;
+  background: url(../img/icono-any.jpg); }
+
+.text-1 {
+  font-size: 0.25em; }
+
+.text-2 {
+  font-size: 0.5em; }
+
+.text-3 {
+  font-size: 0.75em; }
+
+.text-4 {
+  font-size: 1em; }
+
+.text-5 {
+  font-size: 1.25em; }
+
+.facebook-icon {
+  background-image: url(../img/facebook.svg);
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  list-style: none; }
+
+.twitter-icon {
+  background-image: url(../img/twitter.svg);
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  list-style: none; }
+
+.instagram-icon {
+  background-image: url(../img/instagram.svg);
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  list-style: none; }

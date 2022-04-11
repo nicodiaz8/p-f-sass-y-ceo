@@ -1,0 +1,115 @@
+// variables 
+$width:100%;
+$height:30vh;
+
+$lang:mx;
+
+
+// extends
+
+.btn-more{
+	width: 100px;
+	height: 30px;
+	background-color:deeppink;
+	color:white;
+	border:none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&:hover{
+		color: black;
+		cursor: pointer;
+	}
+}
+
+.btn-rounded{
+	@extend .btn-more;
+	border-radius: 15px;
+}
+
+//mixins
+
+@mixin texto($font-size,$line-height,$color){
+	font-size: $font-size;
+	line-height: $line-height;
+	color:$color;
+	padding:4px 20px
+} //@include texto(2em,1.4em,deeppink);
+
+
+
+@mixin flex($justify,$align){
+	display: flex;
+	justify-content: $justify;
+	align-items:$align;
+}
+
+
+@mixin shadow(){
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+// map
+
+$paleta:(
+	'uno': #af40f6,
+    'dos': #df1ce6,
+    'tres':#bb20c1,
+    'cuatro':#ecdde9,
+    'cinco': #9b9a9b,
+    'seis': #292829,
+    'siete':#e205bb,
+    'ocho':#dfa1d4,
+    'nueve':#bd9eb8,
+    'diez':#e7cfe3,
+    'once': #6e646c,
+    'doce': #7f3472,
+    'trece':#3f393e,
+	);
+
+.bg-violet{
+	background-color: map-get($map:$paleta,$key:'ocho');
+}
+
+.text-pink{
+	color:map-get($map:$paleta,$key:'siete')
+}
+
+// math
+.box{
+	width: ($width - 2%) * 4;
+	height: $height - 2vh;
+	background-color: white;
+}
+
+// condicionales 
+.icon-lang{
+	width: 50px;
+	height: 50px;
+	background-size:contain;
+	background-position:center;
+	@if $lang==es{background-image: url(../img/icono-es.jpg)}
+	@else if $lang==en{background: url(../img/icono-en.jpg)}
+	@else if $lang==fr{background: url(../img/icono-fr.jpg)}
+	@else{background: url(../img/icono-any.jpg)};
+}
+
+// bucles
+@for $i from 1 to 6{
+	.text-#{$i}{
+		font-size: .25em *$i;
+	}
+}
+
+// bucle evolucionado
+@each $icono in facebook, twitter, instagram{
+	.#{$icono}-icon{
+		background-image:url(../img/#{$icono}.svg);
+		width: 30px;
+		height: 30px;
+		background-size:100%;
+		list-style: none;
+	}
+}
+

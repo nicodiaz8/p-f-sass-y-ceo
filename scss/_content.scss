@@ -1,0 +1,42 @@
+p{
+	font-size: 1em;
+	line-height: 1.3em;
+	margin-bottom: 2em;
+}
+
+code{
+	font-size: 1em;
+	margin-bottom: 1em;
+}
+
+h3{
+	font-size: 2em;
+	margin-top: 10px;
+}
+
+
+.card{
+	height: 500px;
+}
+
+h3{
+	@include texto(2em,1.4em,deeppink);
+}
+
+p{
+	@include texto(1.2em, 1.6em, grey);
+}
+
+.box2{
+	@include shadow();
+}
+
+.box{
+	@include flex(center, flex-end);
+}
+
+.botonera{
+	@media(min-width: 756px){
+		
+	}
+}
