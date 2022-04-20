@@ -1,0 +1,25 @@
+Miguel diaz llanos 
+
+Presupuesto:
+El principal objetivo es poder crear la pagina web.
+
+Una de las plataformas que vamos a usar es visual studio code para poder crear la pagina web.
+
+*Fase 1:  analizo que quiere el cliente para su pagina web.
+*Fase 2: planifico los tiempos para la creacion de la pagina.
+*Fase 3: Diseño el prototipo de la web que quiere el cliente.
+*Fase 4:  Veo bien y verifico todos los contenidos que quiere para la pagina web.
+*Fase 5:  Empiezo a desarrollar la pagina web.
+*Fase 6: Realizo las pruebas necesarias para ver si todo esta bien de la pagina web.
+*Fase 7: Realizp el lanzamiento de la pagina web para que el cliente pueda utilizarla.
+
+Mi presupuesto se basa en:
+-Diseño.
+-Tiempo.
+-Desarrollo. 
+-Contenido.
+
+
+Por proyecto yo estaria cobrando unos 35.000 pesos argentinos , tambien depende de todo el desarrollo que hay dentro y de todo el contenido que haya dentro. Mis servicios vienen con una garantia de 1 mes y medio por si hay alguna falla o si no andara algun boton dentro de la pagina.
+
+Yo pido un adelanto de la mitad apenas empiezo con el proceso de desarrollar la pagina web para que vea que estoy comprometido a realizarle la pagina en tiempo y forma, tambien trato de respetar el pazo que requiere el cliente para la utilizacion de la pagina web.
